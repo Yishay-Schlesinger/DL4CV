@@ -7,6 +7,7 @@ from data_utils import apply_mobius_by_sphere_rot, lift_image, rotate_image_poin
 
 """ Test difference between L(mob_g(I)) and g^-1.L(I)"""
 
+
 img_path = 'example_img1.png'
 og_img = Image.open(img_path).convert('RGB')
 img = transforms.Resize((128, 128))(og_img)
