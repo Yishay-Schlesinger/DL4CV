@@ -70,7 +70,7 @@ def spread_discretize(img, lifted_points, depth_factor, background_value=0):
     # angels of all points
     # new angels
     # new lifted points
-    spread_lifted_points = {1:1}
+    spread_lifted_points = {1:2}
     cube = naive_discretize_to_lattice(img, spread_lifted_points, depth_factor, background_value=0)
     return cube
 
